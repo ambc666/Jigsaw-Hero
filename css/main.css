@@ -1,0 +1,277 @@
+/*****************************************
+*           Base                         *
+******************************************/
+@font-face {
+  font-family: 'PineappleBold';
+  src: url("../fonts/PineappleBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'TheJungle_Regular';
+  src: url("../fonts/TheJungle_Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "PineappleBold", sans-serif;
+  font-size: 30px;
+  color: #000; }
+
+h1, h2, h3 {
+  font-family: "PineappleBold", sans-serif; }
+
+#timer {
+  font-family: "TheJungle_Regular", serif;
+  font-size: 40px; }
+
+/*****************************************
+*           Elements                     *
+******************************************/
+.instruction {
+  background-color: #F8AF40;
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff; }
+
+.row1 {
+  margin: 100px 0px 0px 150px; }
+
+.playGame {
+  background-color: #8ABF43;
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff; }
+
+.row2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.leaderBoard {
+  background-color: #18A0DB;
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff;
+  font-size: 35px; }
+
+.row3 {
+  margin-top: 50px;
+  display: flex;
+  float: right;
+  position: relative;
+  margin: -225px 150px 0px 0px; }
+
+.homeButton {
+  background-color: #EA4D82;
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff;
+  margin-left: 50px; }
+
+.row4 {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.row5 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.nextLvl {
+  background-color: #18A0DB;
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff;
+  margin-left: 20px; }
+
+.factToggle {
+  background-color: #F8AF40;
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff;
+  margin-left: 20px;
+  font-size: 35px; }
+
+/*****************************************
+*           Layout                       *
+******************************************/
+.logoContainer {
+  height: 100px;
+  width: 150px;
+  display: flex;
+  float: right;
+  position: relative;
+  margin: -25px 15px 15px 10px;
+  background-image: url(../../../../jigsawhero/img/jigsaw_hero_130x100.png);
+  background-repeat: no-repeat; }
+
+.difficultySelection {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 200px 0px 0px 200px; }
+
+.veryEasyMode {
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff;
+  background-color: #EA4D82;
+  margin-top: 10px; }
+
+.easyMode {
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff;
+  background-color: #F8AF40;
+  margin-top: 10px; }
+
+.mediumMode {
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff;
+  background-color: #8ABF43;
+  margin-top: 10px; }
+
+.hardMode {
+  width: 300px;
+  height: 75px;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 50px;
+  border: 2px solid #fff;
+  background-color: #18A0DB;
+  margin-top: 10px; }
+
+.imgDifficulties {
+  width: 240px;
+  margin-left: 30px; }
+
+footer {
+  color: #fff;
+  font-family: "TheJungle_Regular", serif;
+  padding: 20px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 100px; }
+
+/*****************************************
+*           Pages                        *
+******************************************/
+body {
+  background-image: url(../../../../jigsawhero/img/themes/backgroundMain.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+* {
+  cursor: url(../../../../jigsawhero/img/cursors/jigsaw_hero.png), default; }
+
+.mainLogoHome {
+  background-image: url(../../../../jigsawhero/img/jigsaw_hero.png);
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 350px; }
+
+.homepageLogoContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px; }
+
+.board {
+  display: flex;
+  flex-direction: row; }
+
+.puzzleBoard {
+  margin-left: 25px;
+  border: 2px solid #fff;
+  height: 540px; }
+
+.puzzleRow {
+  width: 960px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 0; }
+
+.piecesRow {
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  line-height: 0; }
+
+.fullImage {
+  width: 960px; }
+
+.instructionsContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px; }
+
+.instructionsBox {
+  border: 2px solid #fff;
+  padding: 30px;
+  margin-left: 50px;
+  background-color: #F8AF40;
+  font-size: 40px; }
+
+.leaderImg {
+  width: 960px;
+  height: 540px;
+  border: 2px solid #fff; }
+
+.leaderboardContainer {
+  padding: 50px 0px 0px 50px;
+  display: flex;
+  justify-content: center; }
+
+.comingSoonText {
+  background-image: url(../../../../jigsawhero/img/comingSoon_banner2.png);
+  background-repeat: no-repeat;
+  font-size: 80px;
+  color: #fff;
+  padding: 50px; }
+
+.comingSoonContainer {
+  position: relative;
+  padding: 50px 0px 0px 550px; }
+
+.factContainer {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 250px;
+  margin: 0 auto;
+  font-family: "PineappleBold", sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center; }
+
+/*****************************************
+*           Media Queries                *
+******************************************/
+
+/*# sourceMappingURL=main.css.map */

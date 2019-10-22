@@ -1,0 +1,17 @@
+@mixin generalButton() {
+    width: 300px;
+    height: 75px;
+    font-family: $mainFont;
+    font-size: 50px;
+    border: 2px solid $white;
+}
+
+@mixin factContainer() {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    font-family: $mainFont;
+    font-size: 30px;
+}

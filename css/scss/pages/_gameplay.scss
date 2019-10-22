@@ -1,0 +1,29 @@
+.board{
+    display: flex;
+    flex-direction: row;
+}
+
+.puzzleBoard{
+    margin-left: 25px;
+    border: 2px solid $white;
+    height: 540px;
+}
+.puzzleRow {
+    width: 960px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0;
+}
+
+.piecesRow {
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    line-height: 0;
+}
+
+.fullImage {
+    width: 960px;
+}

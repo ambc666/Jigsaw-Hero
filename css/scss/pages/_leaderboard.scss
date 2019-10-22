@@ -1,0 +1,30 @@
+.leaderImg {
+    width: 960px;
+    height: 540px;
+    border: 2px solid $white;
+}
+
+.leaderboardContainer {
+    padding: 50px 0px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.comingSoonText {
+    background-image: url(../../../../jigsawhero/img/comingSoon_banner2.png);
+    background-repeat: no-repeat;
+    font-size: 80px;
+    color: $white;
+    padding: 50px;
+}
+
+.comingSoonContainer {
+    position: relative;
+    padding: 50px 0px 0px 550px;
+}
+
+.factContainer {
+    @include factContainer;
+    margin-top: 30px;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.instructionsContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.instructionsBox{
+    border: 2px solid $white;
+    padding: 30px;
+    margin-left: 50px;
+    background-color: $orange;
+    font-size: 40px;
+}

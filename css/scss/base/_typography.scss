@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'PineappleBold';
+    src: url('../fonts/PineappleBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheJungle_Regular';
+    src: url('../fonts/TheJungle_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: $mainFont;
+    font-size: 30px;
+    color: $black;
+}
+
+h1, h2, h3 {
+    font-family: $mainFont;
+}
+#timer{
+    font-family: $secondaryFont;
+    font-size: 40px;
+}

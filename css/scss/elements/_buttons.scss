@@ -1,0 +1,66 @@
+.instruction {
+    //Mainly Index Only
+    background-color: $orange;
+    @include generalButton;
+}
+
+.row1 {
+    margin: 100px 0px 0px 150px;
+}
+
+.playGame {
+    background-color: $green;
+    @include generalButton;
+}
+
+.row2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.leaderBoard {
+    background-color: $blue;
+    @include generalButton;
+    font-size: 35px;
+}
+
+.row3 {
+    margin-top: 50px;
+    display: flex;
+    float: right;
+    position: relative;
+    margin: -225px 150px 0px 0px;
+}
+
+.homeButton {
+    //All menu pages
+    background-color: $pink;
+    @include generalButton;
+    margin-left: 50px; //This margin is due to changes made on 3rd btn (facts) on leaderboard menu's.
+}
+
+.row4 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.row5 { //leaderboard pages - ALL
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nextLvl{
+    background-color: $blue;
+    @include generalButton;
+    margin-left: 20px;
+}
+.factToggle{
+    background-color: $orange;
+    @include generalButton;
+    margin-left: 20px;
+    font-size: 35px;
+}
